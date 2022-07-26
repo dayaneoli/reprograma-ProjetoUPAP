@@ -131,3 +131,6 @@ module.exports = {
         deletarPacienteUpaGuanabaraPorId,
         listarPacientesUpaGuanabara
     }
+
+
+    
