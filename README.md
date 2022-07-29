@@ -3,13 +3,9 @@
     <p align="center">Projeto Final - UPAP {Reprograma On15}<p>
 </h1>
 
-
 <br>
 ## 💻 Sobre o projeto 
-<h1 align="center">
-    <br>
-    <p align="center">Projeto Final - UPAP {Reprograma On15}<p>
-</h1>
+
 <p align="center">
 <img src="./assets/ProjetoUPAP.png" width="500" height="500"/>
 </p>
