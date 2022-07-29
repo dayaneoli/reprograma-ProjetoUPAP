@@ -132,7 +132,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 <br>
 
-## 🔃 Manipulação das Rotas das UPA's que disponibilizam atendimento médico:
+## 🔃 Manipulação das Rotas das UPA's:
 | Método HTTP  | Endpoint                | Descrição                          |
 | ------------ | ----------------------- | ---------------------------------- |
 | GET          | `/upa/listar`           | Lista todas as UPA's               |
@@ -215,6 +215,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 ## 👨‍💻 Autora
 <br>
+
 ## [Dayane Oliveira](https://github.com/dayaneoli/reprograma-ProjetoUPAP)
 ## [LinkedIn](https://www.linkedin.com/in/dayane-oliveira-410528242/) 
 
@@ -228,11 +229,11 @@ E finalmente, a todas as meninas da turma On15.
 
 ## 📚 Referências Bibliográficas:
 
-https://mongoosejs.com/docs/api.html#query_Query-countDocuments
+- https://mongoosejs.com/docs/api.html#query_Query-countDocuments
 
-https://acervolima.com/funcao-de-contagem-de-mongoose/#:~:text=count()%20%C3%A9%20usada%20para,como%20uma%20consulta%20de%20contagem.&text=Par%C3%A2metros%3A%20Esta%20fun%C3%A7%C3%A3o%20aceita%20um,retorna%20o%20objeto%20de%20consulta.
+- https://acervolima.com/funcao-de-contagem-de-mongoose/#:~:text=count()%20%C3%A9%20usada%20para,como%20uma%20consulta%20de%20contagem.&text=Par%C3%A2metros%3A%20Esta%20fun%C3%A7%C3%A3o%20aceita%20um,retorna%20o%20objeto%20de%20consulta.
 
-https://programming-techniques.com/ask-475-add-images-to-readmemd-on-github/#:~:text=Basta%20adicionar%20uma%20etiqueta%20%3Cimg,que%20o%20servidor%20suporta%20CORS.&text=Preciso%20de%20incluir%20algumas%20imagens%20no%20meu%20ficheiro%20README.,-N%C3%A3o%20sei%20como
+- https://programming-techniques.com/ask-475-add-images-to-readmemd-on-github/#:~:text=Basta%20adicionar%20uma%20etiqueta%20%3Cimg,que%20o%20servidor%20suporta%20CORS.&text=Preciso%20de%20incluir%20algumas%20imagens%20no%20meu%20ficheiro%20README.,-N%C3%A3o%20sei%20como
 
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
