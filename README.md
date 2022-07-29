@@ -1,43 +1,3 @@
-# projetoUPAP
-
-Rotas/EndPoints
-GET /todos
-Rota que retorna uma lista com todas as UPAs.
-Rota que retorna uma lista com todos os pacientes.
-HTTP 200 OK
- 
-GET /:id
-Rota que retorna uma UPA por id.
-Rota que retorna um paciente por id.
-HTTP 200 OK
- 
-POST /
-Rota que recebe uma nova UPA, adiciona ela ao banco de dados MongoDB e retorna o cadastro criado.
-Rota que recebe um novo paciente, adiciona ele ao banco de dados MongoDB e retorna o cadastro criado.
-HTTP 201 CREATED
- 
-PUT /:id
-Rota que atualiza uma UPA cadastrada anteriormente, no banco de dados MongoDB, e retorna o cadastro atualizado.
-Rota que atualiza um paciente cadastrado anteriormente, no banco de dados MongoDB e retorna o cadastro atualizado.
-
-HTTP 200 OK
- 
-DELETE /:id
-Rota que deleta uma UPA baseada em seu id.
-Rota que deleta um paciente baseado em seu id.
-HTTP 204 NO CONTENT
-
-
-Referências Bibliográficas:
-https://mongoosejs.com/docs/api.html#query_Query-countDocuments
-
-https://acervolima.com/funcao-de-contagem-de-mongoose/#:~:text=count()%20%C3%A9%20usada%20para,como%20uma%20consulta%20de%20contagem.&text=Par%C3%A2metros%3A%20Esta%20fun%C3%A7%C3%A3o%20aceita%20um,retorna%20o%20objeto%20de%20consulta.
-
-
-<br>
-## 💻 Sobre o projeto 
-<h1 align="center">
-    <br>
     <p align="center">Projeto Final - UPAP {Reprograma On15}<p>
 </h1>
 <p align="center">
@@ -45,13 +5,19 @@ https://acervolima.com/funcao-de-contagem-de-mongoose/#:~:text=count()%20%C3%A9%
 </p>
 
 <br>
+## 💻 Sobre o projeto 
+<h1 align="center">
+    <br>
+
+<br>
  A API foi desenvolvida como Projeto Final do curso de Back-End da Reprograma (Turma On15) com o auxílio da professora Hanna e das monitoras, sendo pré-requisito para a conclusão do curso.
+
 <p align="justify">A API tem a finalidade de informar para a população a quantidade de pacientes que estão em atendimento em cada UPA (Unidade de Pronto Atendimento), com o propósito de distribuir os pacientes por UPA, a fim de melhorar o tempo e a qualidade do atendimento e, criar um banco de dados com UPAs e pacientes.
 
 <p align="justify">A cidade de Presidente Prudente está localizada no interior de SP e, foi escolhida para testar a API,
 pois a cidade não tem nenhum sistema que apresente essa informação a população.
 
-<p align="justify">A motivação para escolha do projeto, foi a lotação nas UPAs de Presidente Prudente / SP e a falta de informação para facilitar e distribuir melhor o atendimento. Atualmente a cidade conta com uma linha de ônibus que percorre as unidades de saúde da cidade. A prefeitura disponibiliza um site com as informações sobre atestado médico, médicos de plantão, normas etc., porém não consta em pesquisas realizadas, a informação em um banco de dados, sobre a quantidade de pacientes sendo atendidos por dia, por exemplo. .
+<p align="justify">A motivação para escolha do projeto, foi a lotação nas UPAs de Presidente Prudente / SP e a falta de informação para facilitar e distribuir melhor o atendimento. Atualmente a cidade conta com uma linha de ônibus que percorre as unidades de saúde da cidade. A prefeitura disponibiliza um site com as informações sobre atestado médico, médicos de plantão, normas etc., porém não consta em pesquisas realizadas, a informação em um banco de dados, sobre a quantidade de pacientes sendo atendidos por dia, por exemplo. 
 
 <br><br>
 
@@ -245,5 +211,14 @@ Heroku:
 ## [LinkedIn](https://www.linkedin.com/in/dayane-oliveira-410528242/) 
 <br>
 ## 🥰 Agradecimentos:
-<p align="justify"> Primeiramente a Deus, meus pais e irmãos pelo apoio e compreensão. Agradecer a Reprograma pela oportunidade e a turma On15.
+<p align="justify"> Primeiramente a Deus, a todos os Santos e Anjos. 
+Aos meus pais e irmãos pelo apoio e compreensão. 
+Agradecer também a Reprograma pela oportunidade de transformação da vida de mulheres, que é uma causa 
+muito importante.
+E finalmente, a todas as meninas da turma On15.
 
+## Referências Bibliográficas:
+
+https://mongoosejs.com/docs/api.html#query_Query-countDocuments
+
+https://acervolima.com/funcao-de-contagem-de-mongoose/#:~:text=count()%20%C3%A9%20usada%20para,como%20uma%20consulta%20de%20contagem.&text=Par%C3%A2metros%3A%20Esta%20fun%C3%A7%C3%A3o%20aceita%20um,retorna%20o%20objeto%20de%20consulta.
