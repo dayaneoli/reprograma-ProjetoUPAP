@@ -33,6 +33,7 @@ pois a cidade não tem nenhum sistema que apresente essa informação a populaç
 
   
 
+
 <br>
 
 ## ⚙️ Objetivos
@@ -71,7 +72,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 ## 📁 Arquitetura MVC 
 ```
- 📁 cestas-solidarias
+ 📁 projeto_final
    |
    |-  📁 src
    |    |
@@ -126,7 +127,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
           https://projetoupap.herokuapp.com/guanabara/listar/guanabara
           https://projetoupap.herokuapp.com/upa/listar
 
-
+        
     * Utilize o [Postman](https://www.postman.com/) para testar os endpoints da API localmente ou via Heroku.
 
 <br>
