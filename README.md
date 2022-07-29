@@ -12,8 +12,8 @@
 ## 💻 Sobre o Projeto
 
 <br>
- A API foi desenvolvida como Projeto Final do curso de Back-End da Reprograma (Turma On15) com o auxílio da professora Hanna e das monitoras, sendo pré-requisito para a conclusão do curso.
-
+ <p align="justify">A API foi desenvolvida como Projeto Final do curso de Back-End da Reprograma (Turma On15) com o auxílio da professora Hanna e das monitoras, sendo pré-requisito para a conclusão do curso.
+ 
 <p align="justify">A API tem a finalidade de informar para a população a quantidade de pacientes que estão em atendimento em cada UPA (Unidade de Pronto Atendimento), com o propósito de distribuir os pacientes por UPA, a fim de melhorar o tempo e a qualidade do atendimento e, criar um banco de dados com UPAs e pacientes.
 
 <p align="justify">A cidade de Presidente Prudente está localizada no interior de SP e, foi escolhida para testar a API,
