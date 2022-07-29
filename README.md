@@ -32,6 +32,7 @@ pois a cidade não tem nenhum sistema que apresente essa informação a populaç
 <p align="justify">A interface é um CRUD completo integrado com o banco de dados (Mongo DB), onde é possível listar os pacientes em cada UPA, as UPA's cadastradas, cadastrar novos pacientes, cadastrar novas UPA's, atualizar os dados e deletar os cadastros dos paciente e das UPA's. 
 
   
+
 <br>
 
 ## ⚙️ Objetivos
@@ -44,9 +45,11 @@ pois a cidade não tem nenhum sistema que apresente essa informação a populaç
 
 ## 📚 Aprendizados
 O projeto final consiste em ter uma ideia, colocar em prática e criar uma API fundamentada no CRUD, que contém os verbos:  CREATE (CRIAR), READ (LER-CONSULTAR), UPDATE (ATUALIZAR) e DELETE (APAGAR). 
+
 <br>
 ## 🛠️ Tecnologias utilizadas nesse projeto
 <br>
+
 Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 - [JavaScript](https://www.javascript.com/)
 - [Git/Github](https://github.com/)
@@ -92,7 +95,6 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
    |         |- 📑 upaRoutes.js
    |
    |    |- 📑 app.js
-   |   |
    |
    |- 📑 .env
    |- 📑 .env.example
