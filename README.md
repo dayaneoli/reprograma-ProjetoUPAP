@@ -136,12 +136,14 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 Heroku: 
 | Método HTTP  | Endpoint                            | Descrição                            |
 | ------------ | ----------------------------------- | ------------------------------------ |
-| GET          | `http://localhost:9000/api-docs`    |  documentação  swagger               |        
+| GET          | `http://localhost:9000/api-docs`    |  documentação  swagger               |  
+
 <br>
 ## 🔃 Retorna teste com apresentação: 
 | Método HTTP  | Endpoint                     | Descrição                            |
 | ------------ | ---------------------------- | ------------------------------------ |
-| GET          | `http://localhost:9095/`     |  Mensagem de apresentação (Index)    |             |
+| GET          | `http://localhost:9095/`     |  Mensagem de apresentação (Index)    |             
+
 <br>
 ## 🔃 Manipulação das Rotas de Usuários que serão ajudados:
 | Método HTTP  | Endpoint                | Descrição                            |
@@ -151,6 +153,7 @@ Heroku:
 | POST         | `/users/create`         | Cria/cadastra um novo usuário        |
 | PUT          | `/users/update/:id`     | Altera informações de um usuário     |
 | DELETE       | `/users/delete/:id`     | Deleta um usuário específico         |
+
 <br>
 ## 🔃 Manipulação das Rotas das pessoas que fizeram Login:
 | Método HTTP  | Endpoint              | Descrição                                  |
@@ -161,6 +164,7 @@ Heroku:
 | POST         | `/helpers/login `     | Faz o login                                |
 | PUT          | `/helpers/update/:id` | Altera informações de um usuário           |
 | DELETE       | `/helpers/delete/:id` | Deleta um usuário específico               |
+
 <br>
 ## ✅ Dados para Collection Ana Jacinta e Guanabara:
 - id: gerado automaticamente 
@@ -176,6 +180,7 @@ Heroku:
 - informacao: texto e obrigatório  
 - criadoEm: data gerada automaticamente e obrigatório
 <br>
+
 ## ✅ API deve retornar seguinte JSON:
 ```jsx
 {
@@ -200,6 +205,7 @@ Heroku:
 - password: texto e obrigatório
 - termosDeUso: texto e obrigatório
 <br>
+
 ## ✅ API deve retornar seguinte JSON:
 ```jsx
 {
@@ -219,18 +225,20 @@ Heroku:
 }
 ```
 <br>
+
 ## 👨‍💻 Autora
 <br>
+
 <td>
 <img style="border-radius: 20%;" src="https://github.com/dayaneoli" width="200px;" alt=""/> </td><br> 
 ## [Dayane Oliveira](https://github.com/dayaneoli/reprograma-ProjetoUPAP)
 ## [LinkedIn](https://www.linkedin.com/in/dayane-oliveira-410528242/) 
 <br>
+
 ## 🥰 Agradecimentos:
 <p align="justify"> Primeiramente a Deus, a todos os Santos e Anjos. 
 Aos meus pais e irmãos pelo apoio e compreensão. 
-Agradecer também a Reprograma pela oportunidade de transformação da vida de mulheres, que é uma causa 
-muito importante.
+Agradecer também a Reprograma pela oportunidade de transformação da vida de mulheres, que é uma causa de extrema importância.
 E finalmente, a todas as meninas da turma On15.
 
 ## Referências Bibliográficas:
@@ -238,3 +246,8 @@ E finalmente, a todas as meninas da turma On15.
 https://mongoosejs.com/docs/api.html#query_Query-countDocuments
 
 https://acervolima.com/funcao-de-contagem-de-mongoose/#:~:text=count()%20%C3%A9%20usada%20para,como%20uma%20consulta%20de%20contagem.&text=Par%C3%A2metros%3A%20Esta%20fun%C3%A7%C3%A3o%20aceita%20um,retorna%20o%20objeto%20de%20consulta.
+
+https://programming-techniques.com/ask-475-add-images-to-readmemd-on-github/#:~:text=Basta%20adicionar%20uma%20etiqueta%20%3Cimg,que%20o%20servidor%20suporta%20CORS.&text=Preciso%20de%20incluir%20algumas%20imagens%20no%20meu%20ficheiro%20README.,-N%C3%A3o%20sei%20como
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
