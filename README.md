@@ -135,25 +135,36 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ## 🔃 Manipulação das Rotas das UPA's que disponibilizam atendimento médico:
 | Método HTTP  | Endpoint                | Descrição                          |
 | ------------ | ----------------------- | ---------------------------------- |
-| GET          | `/upa/listar`         | Retorna todas as UPA's               |
-| GET          | `/upa/listar/:id`     | Retorna uma UPA por id               |
-| POST         | `/upa/cadastrar`      | Cria/cadastra uma nova UPA           |
-| PUT          | `/upa/atualizar/:id`  | Altera informações de uma UPA        |
-| DELETE       | `/upa/deletar/:id`    | Deleta uma UPA por id                |
+| GET          | `/upa/listar`           | Lista todas as UPA's               |
+| GET          | `/upa/listar/:id`       | Lista uma UPA por id               |
+| POST         | `/upa/cadastrar`        | Cria/cadastra uma nova UPA         |
+| PUT          | `/upa/atualizar/:id`    | Altera informações de uma UPA      |
+| DELETE       | `/upa/deletar/:id`      | Deleta uma UPA por id              |
 
 <br>
 
-## 🔃 Manipulação das Rotas das pessoas que fizeram Login:
-| Método HTTP  | Endpoint              | Descrição                                  |
-| ------------ | --------------------- | ------------------------------------------ |
-| GET          | `/helpers`            | Retorna todos os usuários                  |
-| GET          | `/helpers/private`    | Retorna todos os dados sem restrição       |
-| POST         | `/helpers/register`   | Cria um novo cadastro/login                |
-| POST         | `/helpers/login `     | Faz o login                                |
-| PUT          | `/helpers/update/:id` | Altera informações de um usuário           |
-| DELETE       | `/helpers/delete/:id` | Deleta um usuário específico               |
+## 🔃 Manipulação das Rotas dos pacientes da UPA Ana Jacinta:
+| Método HTTP  | Endpoint                                | Descrição                                                |
+| ------------ | --------------------------------------- | -------------------------------------------------------- |
+| GET          | `/anajacinta/listar/anajacinta`         | Lista todas os pacientes da UPA Ana Jacinta              |
+| GET          | `/anajacinta/listar/anajacinta/:id`     | Lista um paciente da UPA Ana Jacinta por id              |
+| POST         | `/anajacinta/cadastrar/anajacinta`      | Cria/cadastra um novo paciente na UPA na UPA Ana Jacinta |
+| PUT          | `/anajacinta/atualizar/anajacinta/:id`  | Altera informações de um paciente da UPA Ana Jacinta     |
+| DELETE       | `/anajacinta/deletar/anajacinta/:id`    | Deleta um paciente da UPA Ana Jacinta por id             |
 
 <br>
+
+## 🔃 Manipulação das Rotas dos pacientes da UPA Guanabara:
+| Método HTTP  | Endpoint                                | Descrição                                                |
+| ------------ | --------------------------------------- | -------------------------------------------------------- |
+| GET          | `/guanabara/listar/guanabara`           | Lista todas os pacientes da UPA Guanabara                |
+| GET          | `/guanabara/listar/guanabara/:id`       | Lista um paciente da UPA Guanabara por id                |
+| POST         | `/guanabara/cadastrar/guanabara`        | Cria/cadastra um novo paciente na UPA na UPA Guanabara   |
+| PUT          | `/guanabara/atualizar/guanabara/:id`    | Altera informações de um paciente da UPA Guanabara       |
+| DELETE       | `/guanabara/deletar/guanabara/:id`      | Deleta um paciente da UPA Guanabara por id               |
+
+<br>
+
 
 ## ✅ Dados para Collection Ana Jacinta e Guanabara:
 

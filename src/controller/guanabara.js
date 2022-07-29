@@ -14,17 +14,6 @@ const  cadastrarPacienteUpaGuanabara = async (req, res) => {
                        
         })
 
-//-------------------------------------------------------------------------------
-// DÚVIDA: Se o paciente já tem cadastro e vai para ser atendido novamente
-//1) ele precisa ser colocado na contagem do dia
-//2) ele precisa ser recadastrado novamente
-        // const pacienteExiste = await UpaGuanabara.findOne({cpf: req.body.cpf}) 
-        // if(pacienteExiste) {
-        //     return res.status(400).json({
-        //         error: "Paciente será recadastrado no sistema para contagem diária"
-        //     })
-        // }
-//-------------------------------------------------------------------------------
 
         const SalvarPacienteUpaGuanabara = await novoPacienteUpaGuanabara.save();
         res.status(201).json({
