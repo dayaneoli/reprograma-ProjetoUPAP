@@ -41,7 +41,7 @@ https://acervolima.com/funcao-de-contagem-de-mongoose/#:~:text=count()%20%C3%A9%
     <p align="center">Projeto Final - UPAP {Reprograma On15}<p>
 </h1>
 <p align="center">
-<img src="./assets/cestas-solidarias.gif" width="350" height="300"/>
+<img src="./assets/Projeto-UPAP.png" width="350" height="300"/>
 </p>
 
 <br>
@@ -180,7 +180,7 @@ Heroku:
 | PUT          | `/helpers/update/:id` | Altera informações de um usuário           |
 | DELETE       | `/helpers/delete/:id` | Deleta um usuário específico               |
 <br>
-## ✅ Dados para Collection Cestas Solidarias:
+## ✅ Dados para Collection Ana Jacinta e Guanabara:
 - id: gerado automaticamente 
 - nome: texto e obrigatório
 - sobrenome: texto e obrigatório
