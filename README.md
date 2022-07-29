@@ -44,7 +44,7 @@ pois a cidade não tem nenhum sistema que apresente essa informação a populaç
 
 <br>
 
-## 📚 Aprendizados
+## 📚 Desenvolvimento
 O projeto final consiste em ter uma ideia, colocar em prática e criar uma API fundamentada no CRUD, que contém os verbos: CREATE (CRIAR), READ (LER-CONSULTAR), UPDATE (ATUALIZAR) e DELETE (APAGAR). 
 
 <br>
@@ -125,7 +125,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 * Heroku: https://projetoupap.herokuapp.com/anajacinta/listar/anajacinta
           https://projetoupap.herokuapp.com/guanabara/listar/guanabara
-    https://projetoupap.herokuapp.com/upa/listar
+          https://projetoupap.herokuapp.com/upa/listar
 
         
     * Utilize o [Postman](https://www.postman.com/) para testar os endpoints da API localmente ou via Heroku.
@@ -136,7 +136,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 | Método HTTP  | Endpoint                | Descrição                          |
 | ------------ | ----------------------- | ---------------------------------- |
 | GET          | `/upa/listar`         | Retorna todas as UPA's               |
-| GET          | `/upa/listar/:id`     | Retorna uma UPA por por id           |
+| GET          | `/upa/listar/:id`     | Retorna uma UPA por id               |
 | POST         | `/upa/cadastrar`      | Cria/cadastra uma nova UPA           |
 | PUT          | `/upa/atualizar/:id`  | Altera informações de uma UPA        |
 | DELETE       | `/upa/deletar/:id`    | Deleta uma UPA por id                |
@@ -154,7 +154,9 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 | DELETE       | `/helpers/delete/:id` | Deleta um usuário específico               |
 
 <br>
+
 ## ✅ Dados para Collection Ana Jacinta e Guanabara:
+
 - id: gerado automaticamente 
 - nome: texto e obrigatório
 - sobrenome: texto e obrigatório
