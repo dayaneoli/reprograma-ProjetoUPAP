@@ -225,6 +225,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ## 🥰 Agradecimentos:
 <p align="justify"> Primeiramente a Deus, a todos os Santos e Anjos. 
 Aos meus pais e irmãos pelo apoio e compreensão. 
+Agradecer ao meu primo, Vinícius Foltran, por ter feito as imagens e design dos slides. 
 Agradecer também a Reprograma pela oportunidade de transformação da vida de mulheres, que é uma causa de extrema importância.
 E finalmente, a todas as meninas da turma On15.
 
