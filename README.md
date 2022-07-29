@@ -146,7 +146,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ## 🔃 Manipulação das Rotas dos pacientes da UPA Ana Jacinta:
 | Método HTTP  | Endpoint                                | Descrição                                                |
 | ------------ | --------------------------------------- | -------------------------------------------------------- |
-| GET          | `/anajacinta/listar/anajacinta`         | Lista todas os pacientes da UPA Ana Jacinta              |
+| GET          | `/anajacinta/listar/anajacinta`         | Lista a quantidade de pacientes da UPA Ana Jacinta       |
 | GET          | `/anajacinta/listar/anajacinta/:id`     | Lista um paciente da UPA Ana Jacinta por id              |
 | POST         | `/anajacinta/cadastrar/anajacinta`      | Cria/cadastra um novo paciente na UPA na UPA Ana Jacinta |
 | PUT          | `/anajacinta/atualizar/anajacinta/:id`  | Altera informações de um paciente da UPA Ana Jacinta     |
@@ -157,7 +157,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ## 🔃 Manipulação das Rotas dos pacientes da UPA Guanabara:
 | Método HTTP  | Endpoint                                | Descrição                                                |
 | ------------ | --------------------------------------- | -------------------------------------------------------- |
-| GET          | `/guanabara/listar/guanabara`           | Lista todas os pacientes da UPA Guanabara                |
+| GET          | `/guanabara/listar/guanabara`           | Lista a quantidade de pacientes da UPA Guanabara         |
 | GET          | `/guanabara/listar/guanabara/:id`       | Lista um paciente da UPA Guanabara por id                |
 | POST         | `/guanabara/cadastrar/guanabara`        | Cria/cadastra um novo paciente na UPA na UPA Guanabara   |
 | PUT          | `/guanabara/atualizar/guanabara/:id`    | Altera informações de um paciente da UPA Guanabara       |
@@ -178,53 +178,43 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 - createAt: tipo date / gerada automaticamente 
 <br>
 
-## ✅ API deve retornar seguinte JSON:
+## ✅ A API deve retornar seguinte JSON:
 ```jsx
 {
-    "_id": "61b780fa0fd8f51ac598b64b",
-    "name": "Henrique",
-    "nickname": "Neves",
-    "whatsapp": true,
-    "bairro": "cordeiro",
-    "termosDeUso": true,
-    "informacao": "Três filhos, desempregado, sem alimentos em casa, necessitando urgente de ajuda com cestas básicas ou qualquer tipo de doação",
-    "criadoEm": "2021-12-13T17:19:43.701Z",
-    "__v": 0
+    "message": "Total de pacientes em atendimento na UPA Guanabara: 9"
 }
 ```
+
  <br>
 
- ## ✅ Dados para Collection Login:
+ ## ✅ Dados para Collection UPA:
 - id: gerado automaticamente 
-- nome: texto e obrigatório
-- sobrenome: texto e obrigatório
-- cpf: número e obrigatório
-- email: texto e obrigatório
-- password: texto e obrigatório
-- termosDeUso: texto e obrigatório
+- nome: tipo string / obrigatório
+- endereco: tipo string / obrigatório 
+- telefone: tipo number / obrigatório 
 <br>
 
-## ✅ API deve retornar seguinte JSON:
+## ✅ A API deve retornar seguinte JSON:
 ```jsx
 {
-    "messagem": "Pessoa cadastrada com sucesso",
-    "saveUser": {
-        "name": "Vitória",
-        "nickname": "Leite",
-        "cpf": 33355566788,
-        "email": "vicsleite@gmail.com",
-        "password": "$2b$10$n9jsDR1jjcN3Gpk8.EDXDeTOHwKCedTERQQyWh38jgCoZlwixFbq6",
-        "termosDeUso": "false",
-        "_id": "61b7a3a8a02e42b50f53a427",
-        "createdAt": "2021-12-13T19:48:56.683Z",
-        "updatedAt": "2021-12-13T19:48:56.683Z",
-        "__v": 0
-    }
+    "message": "Lista das upas da cidade Presidente Prudente / SP",
+    "upa": [
+        {
+            "_id": "62d9f19130d29ff45b94c4b9",
+            "nome": "UPA do Ana Jacinta",
+            "endereco": "Av. José Zerial - Conj. Hab. Ana Jacinta, Pres. Prudente - SP",
+            "telefone": "(18) 3909-4985",
+            "createdAt": "2022-07-22T00:38:42.104Z",
+            "updatedAt": "2022-07-22T00:38:42.104Z",
+            "__v": 0
+        }]
 }
+
 ```
 <br>
 
 ## 👨‍💻 Autora
+
 <br>
 
 ## [Dayane Oliveira](https://github.com/dayaneoli/reprograma-ProjetoUPAP)
@@ -238,7 +228,7 @@ Aos meus pais e irmãos pelo apoio e compreensão.
 Agradecer também a Reprograma pela oportunidade de transformação da vida de mulheres, que é uma causa de extrema importância.
 E finalmente, a todas as meninas da turma On15.
 
-## Referências Bibliográficas:
+## 📚 Referências Bibliográficas:
 
 https://mongoosejs.com/docs/api.html#query_Query-countDocuments
 
