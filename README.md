@@ -125,37 +125,24 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 * Heroku: https://projetoupap.herokuapp.com/anajacinta/listar/anajacinta
           https://projetoupap.herokuapp.com/guanabara/listar/guanabara
-          https://projetoupap.herokuapp.com/upa/listar
+    https://projetoupap.herokuapp.com/upa/listar
 
         
     * Utilize o [Postman](https://www.postman.com/) para testar os endpoints da API localmente ou via Heroku.
 
 <br>
 
-## 🔃 Retorna a documentação no swagger: 
-    
-Heroku: 
-| Método HTTP  | Endpoint                            | Descrição                            |
-| ------------ | ----------------------------------- | ------------------------------------ |
-| GET          | `http://localhost:9000/api-docs`    |  documentação  swagger               |  
+## 🔃 Manipulação das Rotas das UPA's que disponibilizam atendimento médico:
+| Método HTTP  | Endpoint                | Descrição                          |
+| ------------ | ----------------------- | ---------------------------------- |
+| GET          | `/upa/listar`         | Retorna todas as UPA's               |
+| GET          | `/upa/listar/:id`     | Retorna uma UPA por por id           |
+| POST         | `/upa/cadastrar`      | Cria/cadastra uma nova UPA           |
+| PUT          | `/upa/atualizar/:id`  | Altera informações de uma UPA        |
+| DELETE       | `/upa/deletar/:id`    | Deleta uma UPA por id                |
 
 <br>
-## 🔃 Retorna teste com apresentação: 
-| Método HTTP  | Endpoint                     | Descrição                            |
-| ------------ | ---------------------------- | ------------------------------------ |
-| GET          | `http://localhost:9095/`     |  Mensagem de apresentação (Index)    |             
 
-<br>
-## 🔃 Manipulação das Rotas de Usuários que serão ajudados:
-| Método HTTP  | Endpoint                | Descrição                            |
-| ------------ | ----------------------- | ------------------------------------ |
-| GET          | `/users`                | Retorna todos os usuários            |
-| GET          | `/users/private`        | Retorna todos os dados               |
-| POST         | `/users/create`         | Cria/cadastra um novo usuário        |
-| PUT          | `/users/update/:id`     | Altera informações de um usuário     |
-| DELETE       | `/users/delete/:id`     | Deleta um usuário específico         |
-
-<br>
 ## 🔃 Manipulação das Rotas das pessoas que fizeram Login:
 | Método HTTP  | Endpoint              | Descrição                                  |
 | ------------ | --------------------- | ------------------------------------------ |
@@ -197,6 +184,7 @@ Heroku:
 }
 ```
  <br>
+
  ## ✅ Dados para Collection Login:
 - id: gerado automaticamente 
 - nome: texto e obrigatório
@@ -230,10 +218,9 @@ Heroku:
 ## 👨‍💻 Autora
 <br>
 
-<td>
-<img style="border-radius: 20%;" src="https://github.com/dayaneoli" width="200px;" alt=""/> </td><br> 
 ## [Dayane Oliveira](https://github.com/dayaneoli/reprograma-ProjetoUPAP)
 ## [LinkedIn](https://www.linkedin.com/in/dayane-oliveira-410528242/) 
+
 <br>
 
 ## 🥰 Agradecimentos:
