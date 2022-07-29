@@ -44,7 +44,7 @@ pois a cidade não tem nenhum sistema que apresente essa informação a populaç
 <br>
 
 ## 📚 Aprendizados
-O projeto final consiste em ter uma ideia, colocar em prática e criar uma API fundamentada no CRUD, que contém os verbos:  CREATE (CRIAR), READ (LER-CONSULTAR), UPDATE (ATUALIZAR) e DELETE (APAGAR). 
+O projeto final consiste em ter uma ideia, colocar em prática e criar uma API fundamentada no CRUD, que contém os verbos: CREATE (CRIAR), READ (LER-CONSULTAR), UPDATE (ATUALIZAR) e DELETE (APAGAR). 
 
 <br>
 ## 🛠️ Tecnologias utilizadas nesse projeto
@@ -54,19 +54,21 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 - [JavaScript](https://www.javascript.com/)
 - [Git/Github](https://github.com/)
 - [Node.js](https://nodejs.org/en/)
-- [MongoDb](https://www.mongodb.com/)
+- [MongoDB](https://www.mongodb.com/)
 - [Postman](https://www.postman.com/)
-- [Vscode](https://code.visualstudio.com/)
-- [heroku](https://dashboard.heroku.com/apps)  
+- [VScode](https://code.visualstudio.com/)
+- [Heroku](https://dashboard.heroku.com/apps)  
 ### Pacotes Utilizados 
 - [Express](https://expressjs.com/pt-br/)
 - [Nodemon](https://nodemon.io/)
-- [dotenv](https://www.npmjs.com/package/dotenv)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
 - [Mongoose](https://mongoosejs.com/)
-- [cors](https://www.npmjs.com/package/cors)
+- [Cors](https://www.npmjs.com/package/cors)
 
 
 <br>
+
+
 ## 📁 Arquitetura MVC 
 ```
  📁 cestas-solidarias
@@ -107,18 +109,28 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ```
 
 <br>
+
 ## 🚧 Melhorias para o futuro 
+
 <br>
+
 * Autenticação, login e senha.
 * Testes.
 
 <br>
+
 ## 🔃 Rotas
 * local: http://localhost:9000
+
 * Heroku: https://projetoupap.herokuapp.com/anajacinta/listar/anajacinta
           https://projetoupap.herokuapp.com/guanabara/listar/guanabara
-    * Utilize o [Postman](https://www.postman.com/) para testar os endpoints da API localmente ou via Heroku
+          https://projetoupap.herokuapp.com/upa/listar
+
+
+    * Utilize o [Postman](https://www.postman.com/) para testar os endpoints da API localmente ou via Heroku.
+
 <br>
+
 ## 🔃 Retorna a documentação no swagger: 
     
 Heroku: 
