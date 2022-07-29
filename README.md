@@ -7,8 +7,10 @@
 <img src="./assets/ProjetoUPAP.png" width="500" height="500"/>
 </p>
 
-<br>
-## 💻 Sobre o projeto 
+<br><br>
+
+## 💻 Sobre o Projeto
+
 <br>
  A API foi desenvolvida como Projeto Final do curso de Back-End da Reprograma (Turma On15) com o auxílio da professora Hanna e das monitoras, sendo pré-requisito para a conclusão do curso.
 
