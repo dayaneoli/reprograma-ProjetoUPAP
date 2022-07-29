@@ -3,12 +3,12 @@
     <p align="center">Projeto Final - UPAP {Reprograma On15}<p>
 </h1>
 
-<br>
-## 💻 Sobre o projeto 
-
 <p align="center">
 <img src="./assets/ProjetoUPAP.png" width="500" height="500"/>
 </p>
+
+<br>
+## 💻 Sobre o projeto 
 <br>
  A API foi desenvolvida como Projeto Final do curso de Back-End da Reprograma (Turma On15) com o auxílio da professora Hanna e das monitoras, sendo pré-requisito para a conclusão do curso.
 
