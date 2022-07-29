@@ -169,17 +169,13 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ## ✅ Dados para Collection Ana Jacinta e Guanabara:
 
 - id: gerado automaticamente 
-- nome: texto e obrigatório
-- sobrenome: texto e obrigatório
-- email: texto e obrigatório 
-- celular: número e obrigatório
-- whatsapp: booleano e obrigatório
-- cpf: número e obrigatório 
-- bairro: texto e obrigatório 
-- pix: texto e obrigatório 
-- termosDeUso: texto e obrigatório
-- informacao: texto e obrigatório  
-- criadoEm: data gerada automaticamente e obrigatório
+- nome: tipo string / obrigatório
+- nomeSocial: tipo string / optativo
+- dataDeNascimento: tipo string / obrigatório 
+- endereco: tipo string / obrigatório 
+- telefoneDeContato: tipo number / obrigatório 
+- cpf: tipo string / obrigatório 
+- createAt: tipo date / gerada automaticamente 
 <br>
 
 ## ✅ API deve retornar seguinte JSON:
