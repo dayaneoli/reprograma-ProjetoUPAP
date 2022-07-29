@@ -41,7 +41,7 @@ https://acervolima.com/funcao-de-contagem-de-mongoose/#:~:text=count()%20%C3%A9%
     <p align="center">Projeto Final - UPAP {Reprograma On15}<p>
 </h1>
 <p align="center">
-<img src="./assets/ProjetoUPAP.png" width="350" height="300"/>
+<img src="./assets/ProjetoUPAP.png" width="500" height="500"/>
 </p>
 
 <br>
