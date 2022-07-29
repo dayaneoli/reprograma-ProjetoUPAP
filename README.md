@@ -178,7 +178,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 - createAt: tipo date / gerada automaticamente 
 <br>
 
-## ✅ A API deve retornar seguinte JSON:
+## ✅ A API deve retornar o seguinte JSON:
 ```jsx
 {
     "message": "Total de pacientes em atendimento na UPA Guanabara: 9"
@@ -194,7 +194,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 - telefone: tipo number / obrigatório 
 <br>
 
-## ✅ A API deve retornar seguinte JSON:
+## ✅ A API deve retornar o seguinte JSON:
 ```jsx
 {
     "message": "Lista das upas da cidade Presidente Prudente / SP",
@@ -214,9 +214,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 <br>
 
 ## 👨‍💻 Autora
-
 <br>
-
 ## [Dayane Oliveira](https://github.com/dayaneoli/reprograma-ProjetoUPAP)
 ## [LinkedIn](https://www.linkedin.com/in/dayane-oliveira-410528242/) 
 
