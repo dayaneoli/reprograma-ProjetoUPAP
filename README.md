@@ -123,9 +123,10 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ## 🔃 Rotas
 * local: http://localhost:9000
 
-* Heroku: https://projetoupap.herokuapp.com/anajacinta/listar/anajacinta
-          https://projetoupap.herokuapp.com/guanabara/listar/guanabara
-          https://projetoupap.herokuapp.com/upa/listar
+* Heroku: 
+- https://projetoupap.herokuapp.com/anajacinta/listar/anajacinta
+- https://projetoupap.herokuapp.com/guanabara/listar/guanabara
+- https://projetoupap.herokuapp.com/upa/listar
 
         
     * Utilize o [Postman](https://www.postman.com/) para testar os endpoints da API localmente ou via Heroku.
